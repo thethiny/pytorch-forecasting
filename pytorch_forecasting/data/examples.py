@@ -10,7 +10,7 @@ import pandas as pd
 
 BASE_URL = "https://github.com/sktime/pytorch-forecasting/raw/main/examples/data/"
 
-DATA_PATH = Path(__file__).parent
+DATA_PATH = Path.cwd()
 
 
 def _get_data_by_filename(fname: str) -> Path:
